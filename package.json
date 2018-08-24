@@ -1,0 +1,11 @@
+{
+  "name": "thing",
+  "version": "1.0.0",
+  "description": "My thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}

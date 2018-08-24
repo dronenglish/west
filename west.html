@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>West</h2>
+  
+  
+  
+  <h3>Weather</h3>
+  <table>
+    <tr>
+      <td>Weather:</td>
+      <td id = "weather">
+    </tr>
+  </table>
+    
+  <h3>Resources</h3>
+  <table>
+    <tr>
+      <td><b>WEALTH:</b></td>
+      <td id="wealth">
+      <td><b>WOOD:</b> </td>
+      <td id = "wood"</td>
+    </tr>
+  </table>
+
+  
+<table style="width:100%">
+  <tr>
+    <th id="leftBuilding"></th>
+    <th id="centralBuilding"></th>
+    <th id="rightBuilding"></th>
+    <td> 
+  </tr>
+  <tr>
+    <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG7loKQiD9NK3jNGYNsqfnh_tHmrjMGJVZtR50-Qr-qfvd6Pyv8A"></td>
+    <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSbtKbyB-oIP0BaPptuIjF-C24siikLRYDtpqg5gJST4VE9DXodw"</td>
+    <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_B1-Np2PV_u8OaehfcAKSPIo44tFNVDMkIWFoeHCGtPKPVaupg"></td>
+    <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8LpEQiq59_zJMcqkmCUoOB1SsKY-ZLk-I-zTV2hEqA2EISbBe3A"></td>
+  </tr>
+  <tr>
+    <td> 
+      <button onclick="upgradeBuilding(leftBuilding)" type="button">Upgrade</button>
+      <button onclick="viewBuilding(leftBuilding)" type="button">View</button>
+    </td>
+    <td> 
+      <button onclick="upgradeBuilding(centralBuilding)" type="button">Upgrade</button> 
+      <button onclick="viewBuilding(centralBuilding)" type="button">View</button>
+    </td>
+    <td> 
+      <button onclick="upgradeBuilding(rightBuilding)" type="button">Upgrade</button> 
+      <button onclick="viewBuilding(rightBuilding)" type="button">View</button> 
+    </td>
+  </tr>
+</table>
+
+  Day:
+  <p id="day"></p>
+  <p id="status"></p>
+  
+  <button onclick="clearStatus()" type="button">clear</button>
+  <button onclick="nextDay()" type="button">Next Day</button>
+<script type="text/javascript" src="./testing.js"></script>
